@@ -18,7 +18,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.sciflareassignment.R
 import com.example.sciflareassignment.adapter.UserAdapter
 import com.example.sciflareassignment.data.User
@@ -29,7 +28,6 @@ import com.example.sciflareassignment.data.UsersViewModelFactory
 import com.example.sciflareassignment.databinding.ActivityHomeBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.coroutines.launch
 
 class HomeActivity : AppCompatActivity() {
